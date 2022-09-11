@@ -1,3 +1,4 @@
+import React from "react";
 
 const SearchBox = (props) => {
     return(
@@ -9,7 +10,7 @@ const SearchBox = (props) => {
                 placeholder= "Type to search..."
             />
         </div>
-    )
+    );
 }
 
 export default SearchBox;
